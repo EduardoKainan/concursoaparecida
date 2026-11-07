@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173d36">
+  <meta name="description" content="Organize sua preparação para o concurso da Educação de Aparecida de Goiânia.">
+  <title>Próxima — seu próximo passo nos estudos</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Próxima, início"><span class="brand-mark">p</span><span>próxima<span class="brand-dot">.</span></span></a>
+    <div class="topbar-right">
+      <span class="exam-chip"><span class="status-dot"></span> Concurso da Educação · Aparecida</span>
+      <button class="avatar" type="button" aria-label="Perfil demonstrativo">E</button>
+    </div>
+  </header>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <div class="side-label">SEU ESPAÇO</div>
+      <nav class="nav-list">
+        <button class="nav-item is-active" data-view="home"><span class="nav-icon">⌂</span>Painel</button>
+        <button class="nav-item" data-view="edital"><span class="nav-icon">▤</span>Conteúdo do edital</button>
+        <button class="nav-item" data-view="questions"><span class="nav-icon">◉</span>Praticar questões</button>
+        <button class="nav-item" data-view="videos"><span class="nav-icon">▷</span>Vídeos</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="source-mini"><span class="source-icon">✓</span><div><strong>Baseado no edital</strong><small>Referências por tópico</small></div></div>
+        <a class="notice-link" id="official-link" target="_blank" rel="noreferrer">Ver edital oficial ↗</a>
+      </div>
+    </aside>
+
+    <main id="main" class="main-content" tabindex="-1">
+      <div class="loading-state">Carregando sua trilha…</div>
+    </main>
+  </div>
+  <nav class="mobile-nav" aria-label="Navegação mobile">
+    <button class="mobile-nav-item is-active" data-view="home"><span>⌂</span>Painel</button>
+    <button class="mobile-nav-item" data-view="edital"><span>▤</span>Edital</button>
+    <button class="mobile-nav-item" data-view="questions"><span>◉</span>Questões</button>
+    <button class="mobile-nav-item" data-view="videos"><span>▷</span>Vídeos</button>
+  </nav>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

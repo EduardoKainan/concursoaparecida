@@ -1,0 +1,96 @@
+{
+  "exam": {
+    "id": "aparecida-educacao-2026",
+    "title": "Concurso da Educação de Aparecida de Goiânia",
+    "notice": "Edital de Abertura nº 01/2026",
+    "organizer": "Instituto Verbena/UFG",
+    "examDate": "2027-01-31",
+    "registrationStart": "2026-11-09",
+    "registrationEnd": "2026-12-09",
+    "sourceUrl": "https://sistemas.institutoverbena.ufg.br/2026/concurso-prefeitura-aparecida-de-goiania-educacao/"
+  },
+  "positions": [
+    {
+      "id": "auxiliar-secretaria",
+      "name": "Auxiliar de Secretaria",
+      "level": "Ensino médio/técnico",
+      "requirements": "Ensino médio completo e curso de Informática Básica",
+      "immediateVacancies": 121,
+      "reserveList": 605,
+      "workload": "30 horas semanais",
+      "salary": "R$ 2.825,11",
+      "status": "pilot",
+      "subjects": [
+        {
+          "id": "portugues",
+          "name": "Língua Portuguesa",
+          "questions": 10,
+          "weight": 4,
+          "topics": [
+            {"id":"portugues-generos","title":"Gêneros textuais e compreensão de textos","reference":"Anexo IV · Conhecimentos Gerais · Língua Portuguesa · itens 1–2"},
+            {"id":"portugues-variacao","title":"Variação linguística e produção de sentidos","reference":"Anexo IV · Conhecimentos Gerais · Língua Portuguesa · itens 3–4"},
+            {"id":"portugues-coesao","title":"Coesão, coerência e sequências textuais","reference":"Anexo IV · Conhecimentos Gerais · Língua Portuguesa · itens 5–6"},
+            {"id":"portugues-gramatica","title":"Argumentação, gramática, formação de palavras e sintaxe","reference":"Anexo IV · Conhecimentos Gerais · Língua Portuguesa · itens 7–12"},
+            {"id":"portugues-concordancia","title":"Concordância, regência, pontuação, acentuação e ortografia","reference":"Anexo IV · Conhecimentos Gerais · Língua Portuguesa · itens 13–15"}
+          ]
+        },
+        {
+          "id": "raciocinio",
+          "name": "Raciocínio Lógico-Matemático",
+          "questions": 3,
+          "weight": 2,
+          "topics": [
+            {"id":"rl-problemas","title":"Raciocínio lógico, dedução e diagramas lógicos","reference":"Anexo IV · Conhecimentos Gerais · Raciocínio Lógico-Matemático · item 1"},
+            {"id":"rl-sequencias","title":"Sequências, progressões e padrões","reference":"Anexo IV · Conhecimentos Gerais · Raciocínio Lógico-Matemático · item 2"},
+            {"id":"rl-proporcao","title":"Proporcionalidade e regra de três","reference":"Anexo IV · Conhecimentos Gerais · Raciocínio Lógico-Matemático · itens 3–4"},
+            {"id":"rl-porcentagem","title":"Porcentagem e matemática financeira básica","reference":"Anexo IV · Conhecimentos Gerais · Raciocínio Lógico-Matemático · itens 5–6"},
+            {"id":"rl-dados","title":"Leitura de tabelas, gráficos e média aritmética","reference":"Anexo IV · Conhecimentos Gerais · Raciocínio Lógico-Matemático · item 7"},
+            {"id":"rl-proposicional","title":"Lógica proposicional, tabelas-verdade e negação","reference":"Anexo IV · Conhecimentos Gerais · Raciocínio Lógico-Matemático · item 8"}
+          ]
+        },
+        {
+          "id": "realidade-goias",
+          "name": "Realidade de Goiás e Aparecida",
+          "questions": 2,
+          "weight": 2,
+          "topics": [
+            {"id":"realidade-direitos","title":"Conflitos sociais, pobreza, fome e direitos humanos","reference":"Anexo IV · Conhecimentos Gerais · Realidade de Goiás e Aparecida · item 1"},
+            {"id":"realidade-saude","title":"Emergências de saúde, surtos e epidemias","reference":"Anexo IV · Conhecimentos Gerais · Realidade de Goiás e Aparecida · item 2"},
+            {"id":"realidade-ambiente","title":"Meio ambiente, desastres e mudanças climáticas","reference":"Anexo IV · Conhecimentos Gerais · Realidade de Goiás e Aparecida · item 3"},
+            {"id":"realidade-cultura","title":"Cultura e patrimônio do Centro-Oeste","reference":"Anexo IV · Conhecimentos Gerais · Realidade de Goiás e Aparecida · item 4"},
+            {"id":"realidade-historia","title":"Formação histórica, política e econômica de Goiás e Aparecida","reference":"Anexo IV · Conhecimentos Gerais · Realidade de Goiás e Aparecida · itens 5–7"},
+            {"id":"realidade-geografia","title":"Aspectos físicos, natureza, turismo e história de Aparecida","reference":"Anexo IV · Conhecimentos Gerais · Realidade de Goiás e Aparecida · itens 8–10"}
+          ]
+        },
+        {
+          "id": "especificos",
+          "name": "Conhecimentos específicos",
+          "questions": 25,
+          "weight": 2,
+          "topics": [
+            {"id":"esp-etica","title":"Ética, sigilo institucional e princípios da Administração Pública","reference":"Anexo IV · Auxiliar de Secretaria · item 1"},
+            {"id":"esp-educacao","title":"Direito à educação: Constituição, LDB e ECA","reference":"Anexo IV · Auxiliar de Secretaria · item 1"},
+            {"id":"esp-atendimento","title":"Atendimento escolar, comunicação institucional e relações interpessoais","reference":"Anexo IV · Auxiliar de Secretaria · item 2"},
+            {"id":"esp-rotinas","title":"Rotinas de secretaria escolar e apoio administrativo","reference":"Anexo IV · Auxiliar de Secretaria · item 3"},
+            {"id":"esp-protocolo","title":"Protocolo, tramitação, arquivo e documentos escolares","reference":"Anexo IV · Auxiliar de Secretaria · item 4"},
+            {"id":"esp-lgpd","title":"Acesso à informação, LAI e proteção de dados, LGPD","reference":"Anexo IV · Auxiliar de Secretaria · item 5"},
+            {"id":"esp-redacao","title":"Redação oficial e informática na rotina administrativa","reference":"Anexo IV · Auxiliar de Secretaria · item 6"},
+            {"id":"esp-lei-organica","title":"Lei Orgânica de Aparecida: servidores públicos e educação","reference":"Anexo IV · Auxiliar de Secretaria · item 7"}
+          ]
+        }
+      ]
+    }
+  ],
+  "comingSoonPositions": [
+    "Agente Educativo",
+    "Profissional da Educação I — Artes",
+    "Profissional da Educação I — Ciências",
+    "Profissional da Educação I — Educação Física",
+    "Profissional da Educação I — Geografia",
+    "Profissional da Educação I — História",
+    "Profissional da Educação I — Inglês",
+    "Profissional da Educação I — Língua Portuguesa",
+    "Profissional da Educação I — Matemática",
+    "Profissional da Educação I — Pedagogia"
+  ]
+}

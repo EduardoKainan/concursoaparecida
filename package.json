@@ -1,0 +1,20 @@
+{
+  "name": "proxima-concurso-aparecida",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node verify.mjs && node --test",
+    "check": "node --check src/app.js && node --check scripts/build.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "node scripts/build.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5"
+  }
+}
