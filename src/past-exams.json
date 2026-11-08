@@ -1,0 +1,55 @@
+{
+  "exams": [
+    {
+      "id": "secretario-escolar-valparaiso-2025",
+      "title": "Secretário Escolar",
+      "contest": "Prefeitura de Valparaíso de Goiás · concurso 2025",
+      "level": "Ensino médio",
+      "examDate": "2026-03-29",
+      "matchLabel": "Melhor correspondência: nível médio e conteúdo escolar/administrativo",
+      "summary": "É o caderno mais útil para o cargo piloto: mesma banca, mesmo nível, matérias comuns e bloco de conhecimentos específicos de secretaria escolar.",
+      "subjects": [
+        {"title":"Língua Portuguesa","range":"01–10","match":"Alta · matéria comum do edital de Aparecida."},
+        {"title":"Realidade de Goiás e de Valparaíso","range":"11–15","match":"Parcial · aproveite Goiás; a parte municipal é específica de Valparaíso."},
+        {"title":"Raciocínio Lógico-Matemático","range":"16–20","match":"Alta · matéria comum do edital de Aparecida."},
+        {"title":"Conhecimentos específicos do cargo","range":"21–40","match":"Muito alta · LGPD, LAI, princípios administrativos, escrituração, documentos, protocolo, arquivo e Censo Escolar."}
+      ],
+      "highlights": [
+        "Questões 21–24: LGPD, LAI, princípios do art. 37 da Constituição e conceitos de dados.",
+        "Questões 26–34 e 37: documentação e escrituração escolar, arquivo, protocolo e Censo Escolar."
+      ],
+      "notes": [
+        "O portal identifica o certame como 2025; o caderno informa aplicação em 29/03/2026.",
+        "O link de gabarito abre o gabarito final oficial, publicado em 09/04/2026."
+      ],
+      "paperUrl": "https://sistemas.institutoverbena.ufg.br/2025/concurso-prefeitura-valparaiso/sistema/provas_gabaritos/provas_cronograma_A/secretario%20escolar.pdf",
+      "answerKeyUrl": "https://sistemas.institutoverbena.ufg.br/2025/concurso-prefeitura-valparaiso/sistema/provas_gabaritos/gabarito_final_cronograma_A/secretario%20escolar%20-%20gabarito%20final.pdf",
+      "listingUrl": "https://sistemas.institutoverbena.ufg.br/2025/concurso-prefeitura-valparaiso/sistema/provas_gabaritos/Provas_gabaritos_finais_Valparaiso.html"
+    },
+    {
+      "id": "auxiliar-secretaria-escolar-inhumas-2023",
+      "title": "Auxiliar de Secretaria Escolar",
+      "contest": "Prefeitura Municipal de Inhumas · concurso 2023",
+      "level": "Ensino fundamental completo",
+      "examDate": "2024-02-18",
+      "matchLabel": "Mesmo nome de cargo; nível e conteúdo diferentes",
+      "summary": "Serve como treino complementar de questões da banca e de conteúdos gerais; não substitui a prova de nível médio de um cargo correlato.",
+      "subjects": [
+        {"title":"Língua Portuguesa","range":"01–10","match":"Alta · matéria comum."},
+        {"title":"Matemática","range":"11–20","match":"Parcial · há sobreposição com operações, mas não é o bloco de Raciocínio Lógico-Matemático de Aparecida."},
+        {"title":"Atualidades, História, Geografia e Conhecimentos Gerais de Goiás e Inhumas","range":"21–30","match":"Parcial · aproveite os tópicos estaduais; conteúdo municipal é próprio de Inhumas."}
+      ],
+      "highlights": [
+        "Caderno de 30 questões, com alternativas múltiplas e gabarito final oficial.",
+        "A capa não separa um bloco de conhecimentos específicos escolares; priorize Valparaíso para secretaria, documentos e arquivo."
+      ],
+      "notes": [
+        "O cargo tem o mesmo nome, mas o edital é de nível fundamental completo.",
+        "O caderno informa aplicação em 18/02/2024; o gabarito final é de 04/03/2024."
+      ],
+      "paperUrl": "https://sistemas.institutoverbena.ufg.br/2023/concurso-inhumas/sistema/provas_gabaritos/prova/Auxiliar%20de%20Secretaria%20Escolar.pdf",
+      "answerKeyUrl": "https://sistemas.institutoverbena.ufg.br/2023/concurso-inhumas/sistema/provas_gabaritos/gabarito_final/Auxiliar%20de%20Secretaria%20Escolar%20-%20Fundamental%20Completo.pdf",
+      "listingUrl": "https://sistemas.institutoverbena.ufg.br/2023/concurso-inhumas/sistema/provas_gabaritos/Provas_gabaritos_finais%20INHUMAS.html"
+    }
+  ]
+}

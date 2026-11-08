@@ -6,10 +6,15 @@ MVP inicial para o concurso da Secretaria de Educação de Aparecida de Goiânia
 
 - Aplicação web estática e responsiva; sem instalação de dependências de framework.
 - Conteúdo programático do cargo piloto estruturado com referências ao Anexo IV do Edital nº 01/2026.
-- Painel, navegação por conteúdo, busca externa de vídeos no YouTube e uma questão demonstrativa autoral.
+- Painel, navegação por conteúdo e busca externa de vídeos no YouTube.
+- Oito aulas autorais com 19 questões comentadas, cobrindo os oito tópicos específicos priorizados: ética, direito à educação, atendimento, rotinas, protocolo/arquivos, LAI/LGPD, redação oficial/informática e Lei Orgânica. Exercícios originais, sem reproduzir enunciados de provas; revisão pedagógica pendente (e revisão legal pendente na aula de Lei Orgânica).
+- Dez vídeos do YouTube selecionados para complementar as oito aulas. Players incorporados com carregamento somente após clique e link direto como alternativa; conteúdo de terceiros pode mudar ou sair do ar.
+- Links oficiais para provas anteriores do Instituto Verbena/UFG: Secretário Escolar (Valparaíso/2025, nível médio) e Auxiliar de Secretaria Escolar (Inhumas/2023, nível fundamental), ambos com gabarito final.
 - Progresso de tópicos gravado no `localStorage` do navegador.
 - Os demais cargos aparecem como “em preparação”; não são apresentados como trilhas disponíveis.
-- Ainda não há conta de usuário, sincronização na nuvem, conteúdo didático curado completo, catálogo de questões de provas anteriores, nem pagamento. A questão incluída é demonstrativa, não é questão de banca e requer revisão antes de uso comercial.
+- Ainda não há conta de usuário, sincronização na nuvem, conteúdo didático completo, questões antigas incorporadas ao app, nem pagamento. Os cadernos anteriores abrem na fonte oficial; as questões autorais do app são exercícios inéditos de treino, não questões oficiais nem reprodução de provas, e precisam de revisão antes de uso comercial.
+
+Aulas e questões autorais ficam em `src/lessons.json`; referências a cadernos e gabaritos ficam em `src/past-exams.json`. Ambos se ligam a referências/fontes oficiais, são incluídos no build e têm validação automatizada.
 
 ## Desenvolvimento local
 

@@ -1,0 +1,237 @@
+{
+  "lessons": [
+    {
+      "topicId": "esp-lgpd",
+      "title": "Acesso à informação e proteção de dados na secretaria escolar",
+      "durationMinutes": 12,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [
+        {"id":"4pmxaESSBKw","title":"LEI DE ACESSO À INFORMAÇÃO (Lei 12.527) - RESUMO da LAI - Sigilo 100 anos","label":"Lei de Acesso à Informação — resumo da LAI","channel":"Me Julga - Cíntia Brunelli","duration":"10:39","url":"https://www.youtube.com/watch?v=4pmxaESSBKw"},
+        {"id":"X76Wp8TqnnI","title":"O que a sua escola precisa saber sobre a LGPD?","label":"LGPD no contexto escolar","channel":"Sistema Positivo de Ensino","duration":"3:48","url":"https://www.youtube.com/watch?v=X76Wp8TqnnI"}
+      ],
+      "blocks": [
+        {
+          "heading": "Transparência não significa divulgar tudo",
+          "paragraphs": [
+            "A Lei de Acesso à Informação adota a publicidade como regra geral e o sigilo como exceção. A mesma lei determina a proteção de informações pessoais e o respeito à intimidade, à vida privada, à honra e à imagem.",
+            "Na rotina escolar, documentos podem misturar informações de interesse público com dados pessoais de estudantes e familiares. O pedido precisa ser analisado pelos canais e procedimentos oficiais; não se deve entregar dados pessoais a terceiros só porque foram solicitados."
+          ]
+        },
+        {
+          "heading": "O que conta como dado pessoal?",
+          "paragraphs": [
+            "Pela LGPD, dado pessoal é informação relacionada a pessoa natural identificada ou identificável. Nome, matrícula, notas e registros que permitam identificar um estudante são exemplos práticos de dados pessoais."
+          ]
+        },
+        {
+          "heading": "Princípio da necessidade",
+          "paragraphs": [
+            "A LGPD define necessidade como a limitação do tratamento ao mínimo necessário para cumprir uma finalidade, com dados pertinentes, proporcionais e não excessivos. Em termos práticos: consulte, registre e compartilhe apenas o que a tarefa autorizada exige."
+          ]
+        },
+        {
+          "heading": "Quando os dados envolvem crianças e adolescentes",
+          "paragraphs": [
+            "A LGPD determina que o tratamento de dados pessoais de crianças e adolescentes seja realizado em seu melhor interesse. Isso exige atenção ao contexto e à proteção de seus direitos; não é autorização para expor informações em grupos, redes sociais ou canais informais.",
+            "Atenção: a base legal e as condições de cada tratamento dependem do caso. Não conclua que consentimento é sempre a única base possível; siga as orientações e os procedimentos oficiais da instituição."
+          ]
+        },
+        {
+          "heading": "Roteiro para uma solicitação de dados",
+          "bullets": [
+            "Identifique qual informação foi pedida e para qual finalidade.",
+            "Não confirme nem encaminhe dados pessoais por canal informal.",
+            "Use o procedimento institucional e encaminhe a dúvida à chefia ou ao responsável indicado.",
+            "Se houver divulgação autorizada, limite-a ao necessário e preserve os demais dados pessoais."
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "lgpd-q1",
+          "prompt": "Qual situação apresenta um dado pessoal nos termos da LGPD?",
+          "options": [
+            {"id":"a","text":"Uma estatística de matrículas sem possibilidade razoável de identificar qualquer estudante."},
+            {"id":"b","text":"O nome e o número de matrícula associados ao histórico de um estudante."},
+            {"id":"c","text":"O nome de uma disciplina sem relação com uma pessoa identificada ou identificável."},
+            {"id":"d","text":"Um horário geral de atendimento publicado pela escola."}
+          ],
+          "correctOptionId": "b",
+          "explanation": "A LGPD define dado pessoal como informação relacionada a pessoa natural identificada ou identificável. Nome e matrícula associados ao histórico permitem identificar o estudante.",
+          "sourceIds": ["lgpd"]
+        },
+        {
+          "id": "lgpd-q2",
+          "prompt": "Ao preparar uma resposta administrativa que exige consultar registros escolares, o princípio da necessidade orienta o servidor a:",
+          "options": [
+            {"id":"a","text":"Consultar todos os dados disponíveis para evitar uma segunda pesquisa."},
+            {"id":"b","text":"Compartilhar o registro completo sempre que houver pedido por escrito."},
+            {"id":"c","text":"Limitar o tratamento ao mínimo necessário para a finalidade da tarefa."},
+            {"id":"d","text":"Guardar cópias pessoais dos documentos para consultas futuras."}
+          ],
+          "correctOptionId": "c",
+          "explanation": "O art. 6º, III, da LGPD define necessidade como limitação do tratamento ao mínimo necessário, com dados pertinentes, proporcionais e não excessivos em relação à finalidade.",
+          "sourceIds": ["lgpd"]
+        },
+        {
+          "id": "lgpd-q3",
+          "prompt": "Uma pessoa que não é responsável pelo estudante pede, por mensagem informal, uma cópia do histórico escolar. Qual conduta está mais alinhada à LAI e à proteção de dados?",
+          "options": [
+            {"id":"a","text":"Enviar a cópia, porque a publicidade é sempre irrestrita."},
+            {"id":"b","text":"Publicar o histórico em um grupo para que a direção decida depois."},
+            {"id":"c","text":"Não divulgar pelo canal informal e encaminhar a solicitação ao procedimento institucional competente."},
+            {"id":"d","text":"Apagar o histórico, pois dados pessoais nunca podem ser tratados pelo poder público."}
+          ],
+          "correctOptionId": "c",
+          "explanation": "A LAI prevê publicidade como regra, mas também determina a proteção de informações pessoais. O art. 31 estabelece tratamento respeitoso à intimidade e restringe o acesso a determinadas informações pessoais; a solicitação deve seguir o procedimento competente, sem divulgação informal automática.",
+          "sourceIds": ["lai"]
+        },
+        {
+          "id": "lgpd-q4",
+          "prompt": "Sobre o tratamento de dados pessoais de crianças e adolescentes, a LGPD estabelece que ele deve:",
+          "options": [
+            {"id":"a","text":"Ser realizado sempre com divulgação pública, por se tratar de serviço educacional."},
+            {"id":"b","text":"Ser realizado em seu melhor interesse, conforme a lei e o contexto do tratamento."},
+            {"id":"c","text":"Ser proibido em qualquer serviço público de educação."},
+            {"id":"d","text":"Ser tratado sem qualquer cuidado adicional quando o dado for mantido em papel."}
+          ],
+          "correctOptionId": "b",
+          "explanation": "O art. 14 da LGPD determina que o tratamento de dados pessoais de crianças e adolescentes seja realizado em seu melhor interesse. A lei se aplica ao tratamento em meios físicos e digitais; o formato em papel não elimina a necessidade de proteção.",
+          "sourceIds": ["lgpd"]
+        }
+      ],
+      "sources": [
+        {
+          "id": "lai",
+          "title": "Lei nº 12.527/2011 — Lei de Acesso à Informação",
+          "reference": "Arts. 3º, I; 6º, III; e 31",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"
+        },
+        {
+          "id": "lgpd",
+          "title": "Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais",
+          "reference": "Arts. 5º, I; 6º, III; e 14",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"
+        }
+      ]
+    }
+    ,{
+      "topicId": "esp-etica",
+      "title": "Ética e princípios no atendimento público",
+      "durationMinutes": 8,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [{"id":"FIghHQZw9MQ","title":"Princípios da Administração Pública para Concursos","label":"Princípios da Administração Pública — art. 37","channel":"Focus Concursos","duration":"33:03","url":"https://www.youtube.com/watch?v=FIghHQZw9MQ"}],
+      "blocks": [{"heading":"Critérios objetivos e cuidado com informações","paragraphs":["No serviço público, a atuação deve observar legalidade, impessoalidade, moralidade, publicidade e eficiência. No cotidiano, isso significa seguir critérios institucionais, evitar favorecimentos e tratar informações pessoais com cuidado.","As situações abaixo são originais e foram elaboradas a partir dos temas do edital e do formato de múltipla escolha observado em provas da banca; não reproduzem questões anteriores."]}],
+      "questions": [
+        {"id":"etica-q1","prompt":"Dois pedidos de atendimento chegam à secretaria. Um deles foi feito por conhecido de um servidor, que pede para passar à frente sem justificativa prevista nas regras. Qual conduta melhor observa a impessoalidade?","options":[{"id":"a","text":"Atender primeiro o conhecido, para preservar a relação pessoal."},{"id":"b","text":"Aplicar os mesmos critérios institucionais usados para os demais pedidos."},{"id":"c","text":"Recusar qualquer atendimento aos dois solicitantes."},{"id":"d","text":"Escolher a ordem conforme a preferência do servidor de plantão."}],"correctOptionId":"b","explanation":"A impessoalidade exige atuação sem favorecimento pessoal e conforme critérios públicos e institucionais. Uma prioridade só cabe quando prevista em regra aplicável, não por vínculo pessoal.","sourceIds":["cf"]},
+        {"id":"etica-q2","prompt":"Um servidor recebe uma planilha com nomes e notas de estudantes e percebe que ela foi encaminhada a um grupo de mensagens sem relação com a atividade escolar. Qual é a resposta mais adequada?","options":[{"id":"a","text":"Reencaminhar a planilha para confirmar se todos receberam."},{"id":"b","text":"Publicar a planilha em outro canal para corrigir a divulgação incompleta."},{"id":"c","text":"Não ampliar o compartilhamento e comunicar o ocorrido pelo procedimento institucional."},{"id":"d","text":"Manter uma cópia pessoal para usar em atendimentos futuros."}],"correctOptionId":"c","explanation":"Nomes e notas podem identificar estudantes. A LGPD exige finalidade e necessidade no tratamento; diante de divulgação indevida, não se deve ampliá-la e é preciso seguir o fluxo institucional de comunicação.","sourceIds":["lgpd"]}
+      ],
+      "sources": [
+        {"id":"cf","title":"Constituição da República Federativa do Brasil","reference":"Art. 37, caput — princípios da Administração Pública","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},
+        {"id":"lgpd","title":"Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais","reference":"Arts. 5º, I; 6º, I e III","url":"https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"}
+      ]
+    },
+    {
+      "topicId": "esp-educacao",
+      "title": "Responsabilidades da escola e informação às famílias",
+      "durationMinutes": 8,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [{"id":"vDZybB6lc7E","title":"LDB AULA 5 art 12,13,14","label":"LDB: responsabilidades da escola (arts. 12–14)","channel":"PROFESSOR MULTIFUNCIONAL","duration":"11:54","url":"https://www.youtube.com/watch?v=vDZybB6lc7E"}],
+      "blocks": [{"heading":"A secretaria apoia a comunicação escolar","paragraphs":["A LDB atribui aos estabelecimentos de ensino responsabilidades como executar a proposta pedagógica, assegurar dias letivos e horas-aula e informar pais e responsáveis sobre frequência e rendimento dos estudantes.","Questões sobre a rotina devem ser lidas com atenção ao sujeito da norma: a incumbência é da escola; o servidor da secretaria pode apoiar o cumprimento dos procedimentos definidos pela instituição."]}],
+      "questions": [
+        {"id":"educacao-q1","prompt":"Uma responsável solicita informações sobre frequência e rendimento do estudante. Segundo a LDB, informar pais e responsáveis sobre esses dados é incumbência:","options":[{"id":"a","text":"do estabelecimento de ensino, observados os procedimentos aplicáveis."},{"id":"b","text":"exclusivamente do conselho tutelar."},{"id":"c","text":"apenas do professor, sem participação da escola."},{"id":"d","text":"somente da família, que deve consultar os registros por conta própria."}],"correctOptionId":"a","explanation":"O art. 12, VII, da LDB atribui ao estabelecimento de ensino o dever de informar pai, mãe e responsáveis legais sobre frequência e rendimento dos alunos e sobre a execução da proposta pedagógica.","sourceIds":["ldb"]},
+        {"id":"educacao-q2","prompt":"Ao organizar o calendário e os registros do período letivo, a equipe deve considerar que a LDB atribui à escola a incumbência de:","options":[{"id":"a","text":"substituir a proposta pedagógica por decisões individuais de cada servidor."},{"id":"b","text":"assegurar o cumprimento dos dias letivos e das horas-aula estabelecidas."},{"id":"c","text":"transferir às famílias a responsabilidade pela carga horária escolar."},{"id":"d","text":"dispensar o acompanhamento do plano de trabalho docente."}],"correctOptionId":"b","explanation":"O art. 12, III e IV, da LDB atribui ao estabelecimento de ensino assegurar os dias letivos e horas-aula e velar pelo cumprimento do plano de trabalho de cada docente.","sourceIds":["ldb"]}
+      ],
+      "sources": [{"id":"ldb","title":"Lei nº 9.394/1996 — Lei de Diretrizes e Bases da Educação Nacional","reference":"Art. 12, incisos I, III, IV e VII","url":"https://www.planalto.gov.br/ccivil_03/leis/l9394.htm"}]
+    },
+    {
+      "topicId": "esp-rotinas",
+      "title": "Rotinas de secretaria e gestão de documentos",
+      "durationMinutes": 9,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [{"id":"3TLcNKQh-mQ","title":"Class 07 - Document Management","label":"Gestão de documentos","channel":"Arquivologia e Concursos - Luciana Rodrigues","duration":"22:55","url":"https://www.youtube.com/watch?v=3TLcNKQh-mQ"}],
+      "blocks": [{"heading":"Registro, organização e recuperação","paragraphs":["A rotina administrativa produz e recebe documentos que apoiam as atividades da escola. A Lei nº 8.159/1991 define gestão de documentos como operações relativas à produção, tramitação, uso, avaliação e arquivamento nas fases corrente e intermediária.","Prazos de guarda e destinação devem seguir os instrumentos e normas aplicáveis ao órgão. Não descarte documentos escolares por decisão individual nem presuma prazos sem consultar a regra competente."]}],
+      "questions": [
+        {"id":"rotinas-q1","prompt":"Na organização da secretaria, a equipe precisa localizar documentos produzidos e recebidos no exercício das atividades escolares. À luz da Lei nº 8.159/1991, esses conjuntos podem constituir arquivos independentemente:","options":[{"id":"a","text":"do suporte da informação ou da natureza dos documentos."},{"id":"b","text":"de serem exclusivamente documentos em papel."},{"id":"c","text":"de terem sido produzidos por uma única pessoa física."},{"id":"d","text":"de terem sido previamente publicados na internet."}],"correctOptionId":"a","explanation":"O art. 2º da Lei nº 8.159/1991 considera arquivos conjuntos de documentos produzidos e recebidos no exercício de atividades, qualquer que seja o suporte da informação ou a natureza dos documentos.","sourceIds":["arquivos"]},
+        {"id":"rotinas-q2","prompt":"Um servidor pretende eliminar pastas antigas porque já foram digitalizadas. Qual orientação é mais segura para a rotina da secretaria?","options":[{"id":"a","text":"Eliminar imediatamente os originais após conferir que os arquivos abrem."},{"id":"b","text":"Manter tudo indefinidamente, sem classificação ou avaliação."},{"id":"c","text":"Aplicar os instrumentos de gestão e a destinação autorizada antes de qualquer eliminação."},{"id":"d","text":"Descartar apenas os documentos que ocupam mais espaço físico."}],"correctOptionId":"c","explanation":"A eliminação de documentos públicos não deve ser feita por decisão individual nem apenas porque houve digitalização. A gestão documental exige classificação, avaliação e observância dos instrumentos e procedimentos aplicáveis ao órgão.","sourceIds":["arquivos","guia"]}
+      ],
+      "sources": [
+        {"id":"arquivos","title":"Lei nº 8.159/1991 — Política Nacional de Arquivos","reference":"Arts. 1º a 3º","url":"https://www.planalto.gov.br/ccivil_03/leis/l8159.htm"},
+        {"id":"guia","title":"Guia de gestão de documentos — Arquivo Nacional","reference":"Classificação, temporalidade e destinação; eliminação documental","url":"https://www.gov.br/arquivonacional/pt-br/servicos/publicacoes/Guiadegestaodedocumentos.pdf"}
+      ]
+    },
+    {
+      "topicId": "esp-protocolo",
+      "title": "Protocolo, tramitação e classificação documental",
+      "durationMinutes": 9,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [{"id":"3qjAxe5RlIU","title":"Protocol: Receiving, registration, filing, classification, distribution, dispatch, and control","label":"Protocolo: recebimento, registro, classificação e tramitação","channel":"Matérias para concursos","duration":"9:17","url":"https://www.youtube.com/watch?v=3qjAxe5RlIU"}],
+      "blocks": [{"heading":"Rastreabilidade do documento","paragraphs":["O protocolo dá rastreabilidade aos documentos recebidos e encaminhados. As atividades incluem recebimento, classificação, registro, distribuição, controle da tramitação, expedição e autuação, conforme procedimentos do órgão.","Classificar é relacionar o documento à atividade que o gerou, usando o instrumento institucional aplicável. O registro do percurso ajuda a identificar unidade responsável, encaminhamentos e situação do expediente."]}],
+      "questions": [
+        {"id":"protocolo-q1","prompt":"Uma solicitação escrita chega à unidade escolar e precisa ser encaminhada a outro setor. Qual sequência favorece o controle da tramitação?","options":[{"id":"a","text":"Encaminhar sem registro e anotar o destino apenas se houver reclamação."},{"id":"b","text":"Registrar o recebimento e o encaminhamento conforme o procedimento institucional."},{"id":"c","text":"Arquivar imediatamente, sem identificar a unidade responsável."},{"id":"d","text":"Enviar cópia a todos os servidores para que alguém assuma o caso."}],"correctOptionId":"b","explanation":"O registro e o controle da tramitação permitem rastrear o curso do documento desde o recebimento até o cumprimento de sua função. O procedimento concreto deve seguir as regras institucionais.","sourceIds":["guia"]},
+        {"id":"protocolo-q2","prompt":"Ao classificar um documento recebido pela escola, o servidor deve priorizar:","options":[{"id":"a","text":"a cor do papel e o tamanho do envelope."},{"id":"b","text":"o nome da pessoa que o entregou, sem considerar seu conteúdo."},{"id":"c","text":"o assunto e a atividade institucional a que o documento se relaciona, conforme o plano aplicável."},{"id":"d","text":"a ordem alfabética do primeiro nome do servidor que fará a leitura."}],"correctOptionId":"c","explanation":"A classificação arquivística analisa o conteúdo e identifica a atividade relacionada, aplicando o plano de classificação institucional. Isso apoia a organização e a recuperação dos documentos.","sourceIds":["guia"]}
+      ],
+      "sources": [{"id":"guia","title":"Guia de gestão de documentos — Arquivo Nacional","reference":"Atividades de protocolo e classificação documental","url":"https://www.gov.br/arquivonacional/pt-br/servicos/publicacoes/Guiadegestaodedocumentos.pdf"}]
+    },
+    {
+      "topicId": "esp-atendimento",
+      "title": "Atendimento escolar: escuta, comunicação e encaminhamento",
+      "durationMinutes": 8,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [{"id":"LMCRKa_MssU","title":"17.08. Aula de Qualidade no atendimento ao público (Administração)","label":"Qualidade no atendimento ao público","channel":"TecConcursos","duration":"24:52","url":"https://www.youtube.com/watch?v=LMCRKa_MssU"}],
+      "blocks": [
+        {"heading":"Atender e tratar bem fazem parte do mesmo serviço","paragraphs":["Um atendimento de qualidade envolve compreender a demanda e oferecer informação ou serviço com suficiência e no tempo adequado. O tratamento respeitoso e empático completa esse atendimento; cordialidade sem encaminhar a demanda não resolve o problema.","Na secretaria escolar, escute sem interromper, confirme o que a pessoa precisa e explique com linguagem simples quais são os próximos passos. Preserve dados de estudantes e familiares e não prometa providências que dependem de outra autoridade."]},
+        {"heading":"Quando a demanda não é da sua atribuição","bullets":["Explique com clareza o que consegue fazer e o que depende de outra unidade.","Indique o canal ou setor competente e, quando previsto, registre o encaminhamento.","Não invente uma resposta nem transfira a responsabilidade sem orientar a pessoa.","Mantenha urbanidade, respeito, cortesia, acessibilidade e igualdade no atendimento."]}
+      ],
+      "questions": [
+        {"id":"atendimento-q1","prompt":"Uma família procura a secretaria porque não entendeu uma orientação recebida. Qual conduta combina qualidade no atendimento e tratamento respeitoso?","options":[{"id":"a","text":"Repetir a orientação mais alto, sem verificar qual parte gerou dúvida."},{"id":"b","text":"Ouvir a dúvida, confirmar a necessidade e explicar os próximos passos em linguagem clara."},{"id":"c","text":"Encerrar o atendimento e pedir que a família procure qualquer outro setor."},{"id":"d","text":"Prometer uma solução imediata mesmo sem competência para realizá-la."}],"correctOptionId":"b","explanation":"A cartilha do MDS associa atendimento de qualidade à satisfação suficiente e tempestiva da demanda e a tratamento empático. Escutar, esclarecer e orientar são mais adequados do que apenas repetir ou prometer o que não se pode cumprir.","sourceIds":["atendimento"]},
+        {"id":"atendimento-q2","prompt":"A pessoa atendida apresenta uma solicitação que depende de outra unidade da rede. O servidor da secretaria deve:","options":[{"id":"a","text":"Dizer que o assunto não é seu e encerrar a conversa."},{"id":"b","text":"Enviar dados do estudante a um grupo geral para que alguém responda."},{"id":"c","text":"Orientar sobre o canal competente e seguir o fluxo de encaminhamento previsto, com respeito e clareza."},{"id":"d","text":"Dar uma resposta provável para evitar demora."}],"correctOptionId":"c","explanation":"A orientação clara evita abandono da demanda e reduz a chance de informação inventada ou exposição desnecessária. O encaminhamento deve seguir o procedimento institucional aplicável.","sourceIds":["atendimento"]}
+      ],
+      "sources": [{"id":"atendimento","title":"Cartilha de Atendimento ao Cidadão — Ouvidoria-Geral do MDS","reference":"Critérios de qualidade, atendimento e tratamento, competências do agente público","url":"https://www.gov.br/mds/pt-br/canais_atendimento/ouvidoria/cartilhas/cartilha_de_atendimento_ao_cidadao_pt.pdf"}]
+    },
+    {
+      "topicId": "esp-redacao",
+      "title": "Redação oficial e informática na rotina administrativa",
+      "durationMinutes": 12,
+      "reviewStatus": "Revisão pedagógica pendente",
+      "videos": [
+        {"id":"VISNlsOGdxU","title":"AULA 1 - REDAÇÃO OFICIAL PARA CONCURSOS - Manual de Redação da Presidência da República","label":"Redação oficial para concursos","channel":"JUS POLIS","duration":"50:07","url":"https://www.youtube.com/watch?v=VISNlsOGdxU"},
+        {"id":"N8tizX5Wvl4","title":"Informática Básica 2026 | Pacote Office para Concursos | Prof. Romilton Júnior #informáticabásica","label":"Pacote Office para concursos","channel":"ROMILTON JÚNIOR","duration":"7:15","url":"https://www.youtube.com/watch?v=N8tizX5Wvl4"}
+      ],
+      "blocks": [
+        {"heading":"Comunicação oficial: clareza e padrão","paragraphs":["Redação oficial é comunicação institucional, não texto pessoal. O documento deve permitir que o leitor identifique o assunto e a providência com clareza, concisão, impessoalidade e padrão compatível com o tipo de expediente.","O edital indica dois referenciais: o Manual de Redação da Presidência da República, 3ª edição (2018), e o Manual de Redação do Governo de Goiás, 2ª edição (2026). Consulte os modelos e orientações desses manuais antes de produzir documentos reais."]},
+        {"heading":"Ferramentas digitais na secretaria","paragraphs":["Em editores de texto, revise conteúdo e formatação, use nomes de arquivo compreensíveis e salve no local institucional definido. Em planilhas, cada informação deve ficar na coluna adequada; fórmulas começam com sinal de igual e podem usar referências de células.","O vídeo de informática é uma introdução ao pacote Office e não substitui o estudo do programa e da versão indicados pelo edital ou utilizados pela instituição."]}
+      ],
+      "questions": [
+        {"id":"redacao-q1","prompt":"Ao redigir um comunicado institucional para as famílias, qual escolha está mais alinhada à redação oficial?","options":[{"id":"a","text":"Usar linguagem pessoal e expressões informais para mostrar proximidade."},{"id":"b","text":"Apresentar a informação com clareza, concisão, impessoalidade e padrão adequado ao documento."},{"id":"c","text":"Acrescentar detalhes não confirmados para evitar perguntas posteriores."},{"id":"d","text":"Escrever em frases longas e técnicas mesmo quando dificultam a compreensão."}],"correctOptionId":"b","explanation":"Os manuais oficiais orientam a comunicação administrativa e a padronização de documentos. Clareza, concisão e impessoalidade ajudam a transmitir a informação sem ambiguidade ou marca pessoal indevida.","sourceIds":["manual-pr","manual-go"]},
+        {"id":"redacao-q2","prompt":"Na planilha de controle da secretaria, é preciso somar os valores das células B2 a B5. Qual alternativa descreve corretamente uma fórmula do Excel?","options":[{"id":"a","text":"A fórmula começa com sinal de igual; pode-se usar =SOMA(B2:B5) para somar o intervalo."},{"id":"b","text":"A fórmula começa com dois-pontos e termina com ponto-final."},{"id":"c","text":"O resultado de uma fórmula só pode ser exibido em um editor de texto."},{"id":"d","text":"As fórmulas não podem usar referências a células."}],"correctOptionId":"a","explanation":"A documentação da Microsoft informa que fórmulas começam com = e que a função SOMA adiciona valores ou intervalos, como B2:B5.","sourceIds":["excel"]}
+      ],
+      "sources": [
+        {"id":"manual-pr","title":"Manual de Redação da Presidência da República — página oficial de consulta","reference":"Referencial de comunicações oficiais e atos normativos; 3ª edição indicada no edital","url":"https://www.gov.br/pt-br/servicos/consultar-o-manual-de-redacao-da-presidencia-da-republica"},
+        {"id":"manual-go","title":"Manual de Redação do Governo do Estado de Goiás — 2ª edição, 2026","reference":"Manual oficial publicado pela Casa Civil do Estado de Goiás","url":"https://goias.gov.br/casacivil/wp-content/uploads/sites/47/2026/06/Nova-Edicao-do-Manual-de-Redacao-do-Governo-do-Estado-de-Goias-2026.pdf"},
+        {"id":"excel","title":"Função SOMA — Microsoft Support","reference":"Fórmulas iniciadas por = e soma de valores ou intervalos","url":"https://support.microsoft.com/pt-br/excel/functions/sum-function"}
+      ]
+    },
+    {
+      "topicId": "esp-lei-organica",
+      "title": "Lei Orgânica: educação e servidores públicos",
+      "durationMinutes": 12,
+      "reviewStatus": "Revisão pedagógica e legal pendente",
+      "videos": [{"id":"rIl5gLzY1Zs","title":"2026 Concurso Público Prefeitura de Aparecida de Goiânia GO Aula 01 Lei Orgânica Municipal","label":"Lei Orgânica de Aparecida de Goiânia — aula introdutória","channel":"SevenConcursos","duration":"14:45","url":"https://www.youtube.com/watch?v=rIl5gLzY1Zs"}],
+      "blocks": [
+        {"heading":"Educação: arts. 109 a 118","paragraphs":["O art. 109 da Lei Orgânica dispõe que a educação é direito de todos e dever do Município e da família, promovida e incentivada com a colaboração da sociedade. O dispositivo aponta como finalidades o pleno desenvolvimento da pessoa, o preparo para a cidadania e a qualificação para o trabalho.","O art. 114 lista princípios do ensino, como igualdade de condições para acesso e permanência, liberdade de aprender e ensinar, pluralismo de ideias, gratuidade da educação básica municipal, valorização dos profissionais, gestão democrática e padrão de qualidade."]},
+        {"heading":"Servidores públicos: arts. 165 a 183","paragraphs":["O art. 165 trata do acesso a cargos, empregos e funções públicas e estabelece, como regra, aprovação prévia em concurso público, ressalvadas as nomeações para cargos em comissão declarados em lei de livre nomeação e exoneração. Estude esse dispositivo em conjunto com as regras constitucionais e com o recorte do edital.","A página oficial do AparecidaPrev disponibiliza o texto da Lei Orgânica de 2008 e lista emendas posteriores. Confira o texto e as emendas aplicáveis antes de memorizar dispositivos; esta aula não presume que todo trecho antigo permaneça vigente."]}
+      ],
+      "questions": [
+        {"id":"lom-q1","prompt":"De acordo com o art. 109 da Lei Orgânica de Aparecida de Goiânia, a educação é:","options":[{"id":"a","text":"direito apenas de quem já está matriculado e dever exclusivo da família."},{"id":"b","text":"direito de todos e dever do Município e da família, com colaboração da sociedade."},{"id":"c","text":"dever exclusivo do Município, sem participação da família ou da sociedade."},{"id":"d","text":"serviço facultativo sem relação com cidadania ou formação para o trabalho."}],"correctOptionId":"b","explanation":"O art. 109 define a educação como direito de todos e dever do Município e da família, promovida e incentivada com a colaboração da sociedade.","sourceIds":["lom"]},
+        {"id":"lom-q2","prompt":"Qual alternativa apresenta um princípio do ensino previsto no art. 114 da Lei Orgânica municipal?","options":[{"id":"a","text":"Desigualdade de condições para acesso e permanência na escola."},{"id":"b","text":"Restrição à liberdade de aprender e ensinar."},{"id":"c","text":"Pluralismo de ideias e de concepções pedagógicas."},{"id":"d","text":"Cobrança obrigatória na educação básica da rede municipal."}],"correctOptionId":"c","explanation":"O art. 114 inclui o pluralismo de ideias e concepções pedagógicas entre os princípios do ensino; também prevê igualdade de condições, liberdade de aprender e gratuidade na rede municipal.","sourceIds":["lom"]},
+        {"id":"lom-q3","prompt":"Segundo o art. 165 da Lei Orgânica municipal, qual é a regra geral para investidura em cargo ou emprego público?","options":[{"id":"a","text":"Indicação pessoal, sem requisitos legais."},{"id":"b","text":"Aprovação prévia em concurso público, ressalvada a nomeação para cargo em comissão declarado em lei de livre nomeação e exoneração."},{"id":"c","text":"Entrevista interna, mesmo quando a lei exigir concurso."},{"id":"d","text":"Apenas sorteio público, sem avaliação dos candidatos."}],"correctOptionId":"b","explanation":"O art. 165 condiciona, como regra, a investidura à aprovação prévia em concurso público; o próprio dispositivo ressalva cargos em comissão declarados em lei de livre nomeação e exoneração.","sourceIds":["lom","cf"]}
+      ],
+      "sources": [
+        {"id":"lom","title":"Lei Orgânica do Município de Aparecida de Goiânia — texto-base de 2008","reference":"Arts. 109, 114 e 165; confirmar emendas aplicáveis antes de usar o conteúdo como versão consolidada","url":"https://aparecidaprev.go.gov.br/wp-content/uploads/2021/03/LEI-ORGANICA-DO-MUNICIPIO-2008.pdf"},
+        {"id":"lom-emendas","title":"Lei Orgânica do Município — página de legislação e emendas do AparecidaPrev","reference":"Lista oficial de emendas disponibilizadas pelo órgão municipal","url":"https://aparecidaprev.go.gov.br/lei-organica-do-municipio"},
+        {"id":"cf","title":"Constituição da República Federativa do Brasil","reference":"Art. 37, II — concurso público e cargos em comissão","url":"https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"}
+      ]
+    }
+  ]
+}
